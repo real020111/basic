@@ -1,0 +1,105 @@
+.VipBox{background:#fff;overflow:hidden;font-family:"微软雅黑";}
+.VipContent{width:1200px;margin:30px auto 20px;}
+.vip_banner{width:1200px;height:317px;overflow:hidden;position:relative;}
+.vip_banner img{display:block;width:1200px;height:317px;}
+.vip_banner a .g_vbarlk{position:absolute;width:180px;height:43px;background:#fe5959;font-size:26px;line-height:43px;text-align:center;color:#ffffff;border-radius:3px;top:252px;left:304px;background:url(../images/viponly/vip_bannerbtn.png) no-repeat;}
+.vip_banner a .g_vbarlk:hover{background:url(../images/viponly/vip_bannerbtn1.png) no-repeat;}
+.vip_nav{height:30px;border-bottom:3px solid #cbcbcb;margin-top:20px;margin-bottom:43px;}
+.vip_nav p{font-size:38px;color:#1d7ad9;font-weight:bold;width:488px;text-align:center;line-height:58px;margin:0 auto;background:#fff;}
+.access_tle{height:74px;width:1200px;background:url(../images/viponly/vip_nav.png) no-repeat;/*margin-top:30px;*/line-height:74px;}
+.access_tle span{font-size:30px;font-weight:bold;color:#ffffff;margin-left:30px;float:left;}
+.access_tle p{display:inline;float:right;margin-right:48px;}
+.access_tle p a{display:inline-block;font-size:20px;color:#ffffff;}
+.access_tle p a var{font-style:normal;float:left;}
+.access_tle p a i{display:inline-block;width:39px;height:39px;background:url(../images/viponly/vip_navlink.png) 0 0 no-repeat;float:left;margin:18px 0 0 15px;}
+.access_lt{width:720px;float:left;}
+.access_lt p{font-size:14px;color:#666666;line-height:28px;width:547px;float:left;margin-top:76px;}
+.access_lt b{display:block;width:143px;height:127px;float:left;}
+.access_lt .acslt_minpic1{background:url(../images/viponly/vip_pic1.png) no-repeat;margin:30px 2px 0 28px;}
+.access_lt .acslt_minpic3{background:url(../images/viponly/vip_pic3.png) no-repeat;margin:30px 2px 0 28px;}
+.access_lt .acslt_minpic2{background:url(../images/viponly/vip_pic2.png) no-repeat;margin:30px 28px 0 2px;}
+.access_lt .acslt_minpic4{background:url(../images/viponly/vip_pic4.png) no-repeat;margin:30px 28px 0 2px;}
+.access_rt{width:480px;float:left;overflow:hidden;padding-top:27px;}
+.access_rt img{width:421px;height:237px;margin:30px;}
+.access_lt p.acelt_tp{margin-top:28px;margin-left:176px;}
+.vip_access{margin-top:0;}
+.vip_access p.vip_des{width:403px;}
+.vip_aces{margin-top:10px;}
+.vip_aceslt{width:607px;height:796px;border-right:1px solid #cecece;float:left;}
+.blue_qiu{display:block;width:35px;height:35px;background:url(../images/viponly/vip_path.png) no-repeat;float:right;margin-right:-18px;}
+.vip_aceslt li{clear:both;}
+.vip_deslt{float:right;position:relative;max-width:566px;margin-right:26px;}
+.vip_deslt p{font-size:18px;line-height:30px;color:#666666;padding:12px 18px;border:1px solid #cecece;}
+.vip_deslt b{display:block;width:13px;height:14px;position:absolute;top:10px;right:-10px;z-index:11;background:url(../images/viponly/vip_path_jiao.png) no-repeat;}
+.vip_aceslt li i,.vip_acesrt li i{display:block;float:right;width:23px;height:23px;background:url(../images/viponly/vip_path_nav.png) no-repeat;margin-right:-11.5px;margin-top:5px;}
+.vip_tp1{margin-top:70px;}
+.vip_tp2{margin-top:115px;}
+.vip_tp3{margin-top:145px;}
+.vip_tp4{margin-top:170px;}
+.vip_acesrt{width:590px;float:left;}
+.vip_acesrt li{clear:both;}
+.vip_desrt{max-width:538px;float:left;margin-left:38px;}
+.vip_desrt var{display:block;width:13px;height:14px;position:absolute;top:10px;left:-12px;z-index:11;background:url(../images/viponly/vip_path_jiao1.png) no-repeat;}
+.vip_acesrt li i.vip_jiaort{float:left;margin-left:-11.5px;}
+/*贵宾通道 end*/
+
+/*贵宾通道-列表页  start*/
+.viplistBox{margin-top:30px;overflow:hidden;}
+.viplist_lt{width:211px;float:left;border:1px solid #e5e5e5;padding:28px 22px 22px 20px;}
+.viplt_tle{font-size:24px;line-height:48px;border-bottom:1px solid #cccccc;color:#178eee;}
+.viplist_lt p{font-size:14px;line-height:28px;color:#666666;text-indent:2em;}
+.vip_ptp{margin-top:13px;}
+.viplist_rt{width:915px;float:right;}
+.listrt_nav{height:42px;border-bottom:1px solid #dfdfdf;}
+.listrt_nav li{width:148px;float:left;height:40px;color:#666666;line-height:40px;text-align:center;border:1px solid #ffffff;}
+.listrt_nav li:hover,.listrt_nav .g_vipnav{color:#178eee;background:#fff;border-left:1px solid #dfdfdf;border-right:1px solid #dfdfdf;border-top:3px solid #178eee;}
+.g_vipconbox{margin-top:10px;overflow:hidden;}
+.g_vipconbox li{margin-top:20px;*margin-top:17px;border-bottom:1px solid #f0f0f0;}
+.g_vconlt{width:366px;float:left;}
+.g_vconlt img{display:block;width:366px;height:206px;margin-bottom:20px;}
+.g_vconrt{width:530px;float:right;}
+.g_vconrt .g_vconrtle{font-size:18px;color:#333333;margin:12px 0;}
+.g_vconrt p{font-size:14px;color:#666666;line-height:24px;}
+.g_vconrt p var{color:#000000;font-style:normal;}
+.g_vconrt .g_vrtlink{display:block;font-size:14px;color:#ffffff;width:110px;height:30px;background:#ff8c00;line-height:30px;text-align:center;border-radius:2px;margin-top:32px;}
+.g_vconrt .g_vrtlink:hover{background:#ff7e00;}
+.g_vp1{height:48px;margin-bottom:10px;}
+.w_pages a.prev{background:#e3e3e3;border:1px solid #e3e3e3;color:#333333;}
+.w_pages a.g_srv{background:#2e82ff;border-color:#2e82ff;color:#ffffff;}
+.g_viplktp{margin-top:40px;}
+/*贵宾通道-列表页  end*/
+
+/*贵宾通道-详情页  start*/
+.g_detailrt p{margin-bottom:5px;}
+.g_detailrt .g_detaillk{margin-top:8px;}
+.g_detaildes{font-size:14px;color:#666666;line-height:28px;margin-top:12px}
+.g_dtltle{border-bottom:1px solid #f0f0f0;}
+.g_detailcon li{margin-top:20px;*margin-top:17px;}
+.g_detailcon li.g_dtlis{margin-top:12px;}
+.g_detailcon li img{display:block;width:925px;height:340px;}
+/*贵宾通道-详情页  end*/
+
+/*弹出框  start*/
+.g_RmboxAlert{position:fixed;z-index:9999;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,0.4);filter:progid:DXImageTransform.Microsoft.gradient(startColorStr:#40000000,endCorlorStr:#40000000;);font-family:"微软雅黑";}
+.g_vipReminder{position:absolute;z-index:99999;left:0;top:0;right:0;bottom: 0;width:921px;height:583px;margin:auto;*margin:6% auto auto 26%;}
+.g_vipalertbox{width:799px;height:535px;border:1px solid #e5e5e5;border-radius:3px;padding:46px 60px 0;background:#ffffff;}
+.g_altle span{font-size:18px;color:#178eee;}
+.g_altle p{font-size:14px;color:#666666;}
+.g_valtwarn{font-size:12px;color:#333333;padding:8px 0 14px 0;border-bottom:1px solid #d5d5d5;}
+.g_valtcon li{min-height:27px;margin-top:20px;*margin-top:16px;}
+.g_valtconlt{width:82px;height:27px;line-height:27px;color:#666666;font-size:14px;float:left;font-family:"微软雅黑";}
+.g_valtconlt span{display:inline-block;width:10px;color:#ff8c00;}
+.g_valtconrt{max-width:715px;float:left;}
+.g_valtconrt input{width:231px;height:25px;border:1px solid #e6e6e6;size:14;line-height:27px;padding-left:10px;}
+.g_valtconrt textarea{width:716px;height:146px;border:1px solid #e6e6e6;resize:none;}
+.g_valtconrt var{display:inline-block;width:20px;text-align:center;line-height:27px;}
+.g_valtconrt .g_vins1{width:60px;}
+.g_valtconrt .g_vins2{width:139px;}
+.g_valtconrt a{margin-right:30px;margin-top:30px;*margin-top:10px;}
+.g_valtlk1,.g_valtlk2{display:block;float:left;width:90px;height:30px;line-height:30px;text-align:center;font-size:12px;color:#ffffff;background:#ff8c00;border-radius:2px;}
+.g_valtlk1:hover{background:#ff7e00;}
+.g_valtlk2{width:65px;color:#333333;background:#cccccc;}
+.g_valtlk2:hover{background:#bebebe;}
+.g_vtimefat{position:relative;}
+.g_vtimebtn{display:block;position:absolute;width:19px;height:17px;background:url(../images/viponly/vip_altime.jpg);top:5px;right:7px;}
+/*弹出框  end*/

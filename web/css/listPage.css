@@ -1,0 +1,388 @@
+@charset "utf-8";
+.w_listPageCon{padding-top: 30px; font-family: "microsoft yahei";}
+.w_listPageCon .mt30{margin-top: 30px;}
+.w_listPageCon .frtit a{font-size: 18px;}
+
+/*攻略列表 start*/
+.w_optionBox{padding:17px 0;/*margin-top: 10px; */border: 1px solid #ddd;/*font-family: sans-serif;*//*font-size: 12px;*/}
+.w_optionBox a{float: left;padding: 5px 10px;margin: 2px 6px;/**margin-left: 7px;*/ /*font-size: 12px;*/font-size: 14px; color: #666;}
+.w_optionBox p{float: left;/*width: 1052px;*/width: 1046px; }
+.w_optionBox span{width: 70px; display: block;margin-left: 16px; float: left;padding: 5px 0; color: #999;font-size: 14px;}
+.w_optionBox a:hover{color: #2c94ff;}
+.w_optionBox a.cur{margin-top: 8px; padding:2px 10px; color: #fff;background-color: #ff7e00;/*border-radius: 5px;*/box-shadow: 0px 1px 0px #004c99;font-size: 12px;}
+.w_optionBox a.m0{margin: 0;padding-left: 0;}
+.w_optionBox .outbound{border-top: 1px dotted #ddd;padding-top: 10px;margin: 10px;margin-bottom: 0; }
+.w_optionBox .outbound span{margin-left: 5px;}
+
+.w_sortTab{margin-top: 30px; padding-left: 28px;height: 27px;padding-bottom: 10px; line-height: 37px;border-bottom: 1px solid #ddd;font-size: 16px;  background: url(../images/listPage/w_listIcon1.jpg) no-repeat left center;}
+.w_sortTab a{ display: inline;color: #b9b8b8; font-size: 14px;margin: 0 5px;}
+.w_sortTab a:hover{color: #ff7200;}
+.w_sortTab a.cur{color: #ff7200;}
+
+.w_sortWp .w_strategyPt2 .moreBox li{width:175px;margin-right: 30px;}
+.w_sortWp .w_strategyPt2 .moreBox img{width: 165px;height: 210px;}
+.w_sortWp .w_strategyPt2 .moreBox a{padding: 4px;}
+.w_strategyPt2 .moreBox a strong{left: 4px;top: 4px;width: 165px;height: 210px;background: rgba(0,0,0,0.4);filter: progid:DXImageTransform.Microsoft.gradient(startColorStr:#60000000,endColorStr:#60000000); }
+.w_sortWp .w_strategyPt2 .moreBox li p{background: none;font-family:arial,serif;}
+.w_sortWp .w_strategyPt2 .moreBox li:hover p{color: #ff8522;cursor: pointer;}
+
+.w_pages input{width: 30px;height:28px;line-height: 28px;text-align: center; vertical-align: middle; border: 1px solid #ddd;}
+.w_pages a{height: 30px;line-height: 30px;}
+/*攻略列表 end*/
+
+/*景点门票列表 start*/
+.w_optionBox .m35{margin-right: 20px;}
+.w_optionBox.new .inland span{margin-left: 25px;}
+.w_optionBox.new .outbound span{margin-left: 15px;}
+
+.w_scenicLt{float: left;width: 900px;}
+.w_scenicLtCon{margin-top: 30px; padding: 19px;border: 1px solid #e6e6e6;}
+.w_scenicLtCon .img{float: left; width: 365px;height: 260px;}
+.w_scenicLtCon h2{font-size: 28px;color: #555;}
+.w_scenicLtCon .scenic{float: left;width: 331px; margin-left: 15px;border-right: 1px solid #ddd;}
+.w_scenicLtCon .pt10{padding-top: 18px;}
+.w_scenicLtCon .scenic p{margin-top: 17px; line-height: 33px;color: #555;cursor: pointer;}
+.w_scenicLtCon .scenic p a{display: inline;color: #555;background-color: #ffe0cc;padding: 8px 0 8px 5px; font-size: 14px;}
+.w_scenicLtCon .scenic p:hover a{background-color: #ebebeb;}
+.w_scenicLtCon .btnWp{padding-top: 70px; width: 136px;float: right;text-align: center; color: #f83182;font-size: 16px;}
+.w_scenicLtCon .btnWp strong{font-size: 34px;}
+.w_scenicLtCon .btnWp b{font-size: 26px;}
+.w_scenicLtCon .btnWp a{color: #fff;margin: 10px auto; width: 125px;height: 37px;line-height: 37px;text-align: center;background-color: #f83182;}
+.w_scenicLtCon .btnWp a:hover{background-color: #2c94ff;}
+
+
+.w_scenicRt{float: right;width: 280px;}
+.w_scenicRtTit{margin-top:15px; border-bottom: 1px solid #ddd;}
+.w_scenicRtTit img{float: left;margin-top: 5px;margin-right: 10px; width: 193px;height: 24px;}
+.w_scenicRtTit h3{float: left;color: #2c94ff;font-size: 14px;line-height: 32px;border-bottom: 2px solid #2c94ff;}
+
+.guessBox .w_scenicRtTit img{width: 140px;margin-right: 20px;}
+.browseBox .w_scenicRtTit img{width: 153px;}
+
+.recommendedBox li{margin-top: 15px;}
+.recommendedBox a{position: relative; width: 280px;height: 156px;}
+.recommendedBox a p{position: absolute;right: 0;top: 22px; width: 235px;height: 80px;font-size: 14px; padding-top: 35px;padding-left: 15px;color: #fff;line-height: 24px; background: rgba(0,0,0,0.5);filter: progid:DXImageTransform.Microsoft.gradient(startColorStr:#60000000,endColorStr:#60000000);}
+.recommendedBox a p span{display: block;}
+.recommendedBox a:hover p{background: rgba(255,255,255,0.8);color: #333;filter: progid:DXImageTransform.Microsoft.gradient(startColorStr:#80ffffff,endColorStr:#80ffffff);}
+
+.guessBox ul{margin-top:15px; border: 1px solid #ddd;padding: 9px;}
+.guessBox p{color: #c7c7c7;text-align: right;font-size: 28px;line-height: 54px;}
+.guessBox li img{width: 260px;height: 186px;}
+.guessBox li:hover p{color: #2c94ff;}
+
+.browseBox ul li{margin-top: 15px; border: 1px solid #ddd;padding: 9px;box-shadow: 0 1px 0 #ccc;}
+.browseBox p{color: #c7c7c7;text-align: right;font-size: 28px;line-height: 54px;}
+.browseBox li img{width: 260px;height: 186px;}
+.browseBox li:hover p{color: #2c94ff;}
+.browseBox .remove{float: right;margin-top:20px; color: #c7c7c7;width: 115px;height: 28px;text-align: center;line-height: 28px; border: 1px solid #c7c7c7;box-shadow: 1px 1px 0 #ccc;}
+/*景点门票列表 end*/
+
+/*旅游频道列表 start*/
+.w_searchBarLeft{float: left;margin-left: 30px;}
+.w_searchBarLeft a{margin-top: 10px; font-size: 16px;color: #4d4d4d;font-family: "microsoft yahei";}
+.w_searchBarLeft a span{display: inline-block;vertical-align: middle;width: 28px; height: 25px; background:url(../images/listPage/w_checkIcons.png) no-repeat 0 -27px;}
+.w_searchBarLeft a.cur span{background-position: 0 0;}
+div.w_searchBarRight{float: right;padding: 30px 30px; background-color: #fafafa;border: 1px solid #f2f2f2;}
+
+.w_tourListConPt1{margin-top: 40px; border: 1px solid #e0e0e0;}
+.w_tourListConPt1 .left{width: 393px;float: left;overflow: hidden;}
+.w_tourListConPt1 .right{float: right; width: 802px;height: 513px;overflow: hidden;}
+
+.w_tourListConPt1 .leftTit{height: 169px;position: relative; background-color: #ce8208;}
+.w_tourListConPt1 .leftTit p{margin-left: 30px;padding-top: 20px;color: #fff; font-size: 38px;}
+.w_tourListConPt1 .leftTit span{position: absolute;right: 5px;bottom: 5px; width: 46px;height: 47px;background: url(../images/listPage/w_shapeBg.png) no-repeat;}
+
+.placeName{padding:20px 0; background: url(../images/listPage/w_tourList_06.jpg) no-repeat center bottom;}
+.placeName h3{text-align: center; color: #de4b43;font-size: 36px;}
+.placeName h3 span{display: block;font-size: 18px;font-family: arial;}
+
+.w_tourListConPt1 .intor{padding: 10px 20px 0 25px;}
+.w_tourListConPt1 .intor p{padding-top: 8px; font-size: 14px;color: #666;line-height: 24px;}
+.w_tourListConPt1 .intor p.indent{text-indent: 2em;width: 308px;}
+.w_tourListConPt1 .intor p span{font-size: 18px;color: #de4b43;}
+.w_tourListConPt1 .intor a{float: right;font-size: 16px;color: #fff; width: 106px;height: 38px;text-align: center;line-height: 38px; background-color: #ff0054;box-shadow: 1px 1px 1px #9f405f;}
+.w_tourListConPt1 .intor a:hover{background-color: #ce8208;box-shadow: 1px 1px 1px #b58840;}
+
+.w_tourListConTitle{margin-top: 5px; position: relative; width: 1200px;height: 200px;overflow: hidden;}
+.w_tourListConTitle h3{position: absolute;z-index: 9;left: 73px;top: 83px; font-size: 32px;color: #fff;}
+.w_tourListConTitle:hover h3{color: #c8c8c8;}
+
+.w_tourListConPt1 .leftTit.color{background-color: #173a58;}
+/*旅游频道列表 end*/
+
+/*商户列表 start*/
+.w_listPageCon .w_box5 .w_ulBox li:hover a p{color: #f83182;}
+.w_listPageCon .w_box5 .w_ulBox li:hover .btnWp span{color: #f83182;}
+.w_listPageCon .w_box5 .w_ulBox .btnWp a{background-color: #f83182;}
+.w_listPageCon .w_box5 .w_ulBox .btnWp a:hover{background-color: #1d7ad9;}
+
+
+.w_rangeBox{border: 1px solid #e0e0e0;font-family: sans-serif;color: #606060;font-size: 12px;}
+.w_rangeBox a{color: #606060;float:left;}
+.w_rangeBox span{display: block;float: left;width: 60px;}
+.w_rangeBox p{float: left;}
+.w_range1{padding-left: 25px;height: 46px;line-height: 46px;background-color: #f7f7f7;border-bottom: 1px solid #e0e0e0;}
+.w_range1 a{border: 1px solid #e0e0e0;padding:0 9px;line-height: 26px;margin-top: 10px;margin-right: 10px;}
+.w_range1 a.cur{background-color: #f83182;border-color: #f83182;color: #fff;}
+.w_range1 a:hover{background-color: #1d7ad9;border-color: #1d7ad9;color: #e0e0e0;}
+.w_range2{padding: 10px 0 10px 25px; line-height: 24px;border-bottom: 1px solid #e0e0e0;}
+.w_range2 a{color: #929292;margin-right: 18px;}
+.w_range2 a:hover{color: #1d7ad9;}
+.w_range2 p{width: 1092px;}
+.w_range3 {padding: 10px 0;}
+.w_range3 .w_searchBar{margin-top: 0;color: #606060;}
+.w_range3 .w_searchBar a{font-family: sans-serif;font-size: 12px;}
+.w_range3 .w_searchBarRight{padding: 0;border: none;background:none;}
+.w_range3 .w_searchBar .w_cityDown{left: -215px;top: 42px;}
+.w_range3 .w_searchBar .place{margin-right: 20px; border: none;/*font-family: sans-serif;*/}
+.w_range3 .w_searchBar .place strong{font-size: 12px;}
+.w_range3 .w_searchBar .place p{margin-left: 60px;}
+.w_range3 .w_searchBarLeft a{margin-top: 0;color: #1d7ad9;line-height: 26px;margin-right: 40px;}
+.w_range3 .w_searchBarLeft a span{margin-right: 10px;}
+.w_range3 .w_searchBarLeft b{float: left;display: block;color: #1d7ad9;margin-right:20px;}
+.w_range3 .place a.changeBtn{position:absolute;right:0;height:42px;/*font-family:sans-serif;*/}
+#main3 ol dl dd a{*padding-right: 3px;}
+/*商户列表 end*/
+
+/*商品列表 start*/
+.w_listPageHotBox{padding: 15px 20px; border: 1px solid #e0e0e0;/*height: 316px;*//*overflow: hidden;*/ }
+.w_listPageHotLt{float: left;width: 337px;/*height: 412px;*//*overflow: hidden;*/ border-right: 1px solid #e0e0e0;padding-right: 23px;}
+.w_listPageHotRt{float: right;width: 777px;/*height: 378px;*/overflow: hidden;}
+
+.w_listPageHotTitle{padding-bottom: 5px; border-bottom: 2px solid #1d7ad9;}
+.w_listPageHotTitle img{height:37px;}
+
+.w_listPageHotLt .ltCon h2{margin: 15px 0 5px 0; font-size: 16px;color: #555; }
+.w_listPageHotLt .ltCon h2 span{display: inline-block;vertical-align:bottom;width: 28px;height: 28px;background: url(../images/listPage/w_listIcons.jpg) no-repeat 0 0;margin-right: 3px;}
+.w_listPageHotLt .ltCon p a{line-height: 28px; display:inline;color: #999;font-size: 14px;margin-right:18px;}
+.w_listPageHotLt .ltCon p a:hover{color: #ff8800;border-bottom: 1px solid #ff8800;}
+.w_listPageHotLt .ltCon h2.ic2 span{background-position: 0 -28px;}
+.w_listPageHotLt .ltCon h2.ic3 span{background-position: 0 -56px;}
+.w_listPageHotLt .ltCon h2.ic4 span{background-position: 0 -84px;}
+/*改 start*/
+.w_listPageHotTitle h1{font-size: 16px;color: #1d7ad9;}
+.w_listPageHotTitle.bor{border-bottom:1px solid #e0e0e0;}
+.w_listPageHotLt.width{width: 207px;}
+
+.w_listPageHotLt .ltCon a{font-size: 14px;color: #555;line-height: 40px;display:inline-block;}
+.w_listPageHotLt .ltCon a span{display: inline-block;vertical-align:middle;width: 22px;height: 23px;background: url(../images/listPage/w_listIconsNew.jpg) no-repeat 0 0;margin-right: 18px;}
+.w_listPageHotLt .ltCon a.ic2 span{background-position: 0 -23px;}
+.w_listPageHotLt .ltCon a.ic3 span{background-position: 0 -46px;}
+.w_listPageHotLt .ltCon a.ic4 span{background-position: 0 -69px;}
+.w_listPageHotLt .ltCon a.ic5 span{background-position: 0 -92px;}
+.w_listPageHotLt .ltCon a.ic6 span{background-position: 0 -115px;}
+.w_listPageHotLt .ltCon a.ic7 span{background-position: 0 -138px;}
+.w_listPageHotLt .ltCon a:hover{color: #ff8800;}
+.w_listPageHotRt.width{width:910px;}
+.w_listPageHotRt .rtCon.new li{width: 210px;height: auto;}
+.w_listPageHotRt .rtCon.new .img{float: none;width: 208px;height: 158px;border: 1px solid #e0e0e0;}
+.w_listPageHotRt .rtCon.new img{border: none;margin: auto;width: 208px;height: 158px;}
+.w_listPageHotRt .rtCon.new .liRight{float: none;margin-left: 0;width: 210px;}
+.w_listPageHotRt .rtCon.new .liRight .price{float: left;}
+.w_listPageHotRt .rtCon.new .liRight a{float: right;margin-top:35px;}
+.w_listPageHotLt.width .ltCon a{display: block;}
+
+
+/*改 end*/
+.w_listPageHotRt .rtCon ul{width: 110%;}
+.w_listPageHotRt .rtCon li{float: left; margin-top: 28px;margin-right:23px;height:139px;width: 382px; overflow: hidden;color: #555;}
+.w_listPageHotRt .rtCon .img{float: left;}
+.w_listPageHotRt .rtCon .liRight{float: left;margin-left: 15px;width: 188px;}
+.w_listPageHotRt .rtCon li img{width: 176px;height: 137px;border: 1px solid #e0e0e0;}
+.w_listPageHotRt .rtCon .liRight p{font-size: 12px;}
+.w_listPageHotRt .rtCon h3{font-size: 14px;line-height: 28px;}
+.w_listPageHotRt .rtCon p.price{font-size: 14px;margin-top: 22px;}
+.w_listPageHotRt .rtCon .price strong{color: #f83182;}
+.w_listPageHotRt .rtCon .price strong b{font-size: 24px;}
+.w_listPageHotRt .rtCon .liRight a{font-size: 12px;color: #555;margin-top: 15px;}
+.w_listPageHotRt .rtCon li:hover .liRight a{color: #f83182;}
+
+.w_listPageGoodsBox{margin-top: 32px;}
+.w_listPageGoodsLt{float: left;width: 910px;overflow: hidden;}
+.w_listPageGoodsRt{float: right;width: 260px;}
+
+.w_listPageGoodsLt .w_rangeBox{background-color: #f7f7f7;}
+/*.w_listPageGoodsLt .w_rangeBox span{width: 40px;}*/
+.w_listPageGoodsLt .w_range1{padding-left: 10px; background: none;}
+.w_listPageGoodsLt .w_range2{padding-left: 10px;}
+.w_listPageGoodsLt .w_range2 p{width: 820px;}
+.w_listPageGoodsLt .w_range2 p a{color: #555;*margin-right: 14px;}
+.w_listPageGoodsLt .w_range2 p a:hover{color: #1d7ad9;}
+.w_rangeBox .w_range4{line-height: 38px; padding-left: 10px;}
+.w_rangeBox .w_range4 span{width: 50px;}
+.w_rangeBox .w_range4 a{color: #0058a5;margin-right: 48px;}
+
+.w_goodsShop ul{width: 110%;}
+.w_goodsShop ul li{float: left;margin-top: 20px;margin-right: 15px; padding: 9px 4px; width: 208px;height: 231px;}
+.w_goodsShop ul li:hover{border:1px solid #ececec;border-bottom-width:2px;padding: 8px 3px 7px;cursor: pointer;}
+.w_goodsShop img{width: 204px;height: 157px;border: 1px solid #ececec;}
+.w_goodsShop ul li:hover p{color: #f83182;}
+.w_goodsShop ul li:hover p span{color: #f83182;}
+.w_goodsShop a{color: #333;font-size: 14px;}
+.w_goodsShop p span{color: #666;font-size: 12px;}
+.w_goodsShop p{margin-top: 10px;margin-left: 10px;}
+
+.w_goodsRtCon{background-color: #f7f7f7;}
+.w_goodsRtCon h4{margin: 0 5px;padding: 12px 0; color: #555; font-size: 16px;border-bottom: 1px solid #e0e0e0;}
+.w_goodsRtCon li{margin-top: 8px; padding: 10px 9px;}
+.w_goodsRtCon li:hover{border: 1px solid #e0e0e0;border-bottom-width: 2px;padding: 9px 8px 8px;}
+.w_goodsRtCon li:hover p{color: #f83182;}
+.w_goodsRtCon li img{width: 238px;height: 143px;border: 1px solid #e0e0e0;}
+.w_goodsRtCon li p{padding-left: 10px;margin-top: 10px; color: #333;font-size: 14px;}
+.w_goodsRtCon li span{font-size: 12px;color: #666;}
+.w_goodsRtCon li span b{color: #f83182;}
+
+.w_goodsRtCon.new{padding-bottom: 18px;}
+.w_goodsRtCon.new a img{margin: 10px auto 0; width: 211px;height: 261px;}
+
+.w_historyGoods{margin-top: 35px;}
+.w_historyGoods h4{color: #1d7ad9;font-size: 18px;}
+.w_historyGoods ul li{margin-top: 8px; margin-right: 30px;}
+.w_historyGoods li p span{color: #f83182;}
+/*商品列表 end*/
+
+/*学习频道列表 start*/
+.w_goodsShop ul li span i{color: #e73838;font-style: normal;}
+.w_goodsShop ul li:hover span i{color: #f83182;}
+
+.w_goodsRtCon li strong b{color: #ff0054;}
+.w_goodsRtCon li:hover strong b{color: #555;}
+
+.w_listPageHotLt .ltCon .p1 a{margin-right: 21px;}
+.w_listPageHotLt .ltCon .p2 a{margin-right: 17px;}
+/*学习频道列表 end*/
+
+/*游记列表 start*/
+.w_leftBoxNew1 .w_notesBox1{border: none;}
+.w_leftBoxNew1 .w_notesBox1 img{width: 255px;height: 191px;}
+.w_leftBoxNew1 .w_notesBox1 a{width: 255px;}
+.w_rightBox .w_pages.new1 a{height: 39px;line-height: 39px;}
+
+.w_storeBox .w_listPageCon a.cur{color: #178eee;line-height: 40px;}
+.w_storeBox .w_listPageCon a:hover{color: #178eee;}
+.w_storeBox .w_listPageCon{padding: 0;}
+.w_storeBox .w_listPageCon .frtit{margin-top: 0;}
+.w_notesListBox li{padding: 20px 0;border-bottom: 1px solid #ddd;}
+.w_notesListBox .img{float: left; width: 366px;height: 206px;}
+.w_rightNotes{float: right;width: 535px;height: 206px;overflow: hidden; line-height: 24px;}
+.w_rightNotes .title h3{float: left;font-size: 18px;}
+.w_rightNotes .title h3 a{color:#333;}
+.w_rightNotes .title p{float: right;font-size: 12px;color: #666;}
+.w_rightNotes .title p a{display: inline-block;color: #666;}
+.w_rightNotes .title p a strong{display: inline-block;vertical-align: middle; width: 13px;height: 16px;margin:0 5px 0 15px; background: url(../images/inside/icons_36.png) no-repeat -37px 0;}
+.w_rightNotes .title p a:hover{color: #ea724e;}
+.w_rightNotes .title p a:hover strong{background-position:0 0;color: #ea724e;line-height: 24px;}
+.w_rightNotes .msg{margin-top: 0; font-size: 12px;color: #999;}
+.w_rightNotes p{margin-top:5px;color: #666;}
+.w_rightNotes p a{display: inline;color: #ff8800;}
+
+.w_notesBox .leftCon{position: relative;}
+.w_placeChange.s_g_box22{position: absolute;margin: 0;}
+.w_placeChange{position: absolute;right: 120px;top: 10px;z-index: 999;}
+/*.s_g_input3{width: 75px;font-size: 14px;}*/
+.w_placeChange .s_g_t22{display: inline-block;vertical-align: top;}
+.w_placeChange.s_g_box22 .w_cityDown{/*left: -354px;*/left: -309px;}
+
+.w_btnNewNotePlus{position: absolute;right: 0;top: 10px;z-index: 999;width: 90px;height: 30px;background-color: #ff8c00;color: #fff;font-family: "microsoft yahei";text-align: center;line-height: 30px;border-radius: 5px;}
+.w_storeBox .w_listPageCon a.w_btnNewNotePlus:hover{background-color: #ff7e00;color: #fff;}
+
+.w_notesBox .w_notesBox1 .fltit{height: 48px;line-height: 48px;}
+/*游记列表 end*/      
+
+
+/*20150310 优 start*/
+.w_listPageCon .w_boxW .frtit p{text-indent: 20px; background-color: #f7f7f7;color: #666;font-size: 18px;}
+.w_sortTab{height: 48px;padding-bottom:0;line-height: 48px; background: none;padding-left: 0;border-bottom: none;background-color: #f7f7f7;}
+.w_sortTab span{width: 118px; display: inline-block;line-height: 48px;height: 48px; background-color: #049fe4;color: #fff;text-align: center;}
+.w_sortTab a{display: inline-block;margin: 0; /*width: 90px;*/padding: 0 20px; text-align: center;}
+.w_optionBox a{margin: 2px 1px;}
+.w_boxW .s_g_box22 a{display: inline-block;overflow: inherit;}
+.s_g_input3.new{width: 124px; width: 123px\0;*width: 123px; }
+.w_rangeBox .w_sortTab{margin-top: 0;font-family: "microsoft yahei";}
+.w_rangeBox{border: none;}
+.w_range2{line-height: 30px; border:1px solid #e0e0e0;font-size: 14px;font-family: "microsoft yahei";}
+.w_range2 span{color: #999;}
+.w_range2 p a{color: #666;margin-right: 16px;}
+.w_range3{border: 1px solid #e0e0e0;border-top: none;}
+.w_range3 .place{font-family: "microsoft yahei";}
+.w_range3 .place p{font-size: 14px;color: #666;}
+.w_listPageGoodsLt .w_rangeBox{background-color:#fff;}
+.w_listPageGoodsLt .w_range2{border-bottom-style: dashed;}
+.w_listPageGoodsLt .w_range4{ padding: 10px;  border: 1px solid #e0e0e0;border-top: none;}
+.w_listPageGoodsLt .w_range4 span{width: auto;font-size: 14px;font-family: "microsoft yahei";color: #999;}
+.w_listPageGoodsLt .w_range4 a{font-size: 14px;color: #666;}
+
+
+/*旅游频道列表-改 150331*/
+.w_optionBox{border-top: none;}
+.w_optionBox a.cur{box-shadow: none;}
+.w_scenicLt.width{width: 809px;}
+.w_scenicRt.width{width: 360px;}
+.w_scenicRt .fltit{font-size: 14px;color: #666;}
+.w_scenicRt .w_leftBoxNew .grade a{font-size: 14px;}
+.w_scenicRt .rightCon{padding-top: 10px;}
+.w_scenicRt .w_leftBoxNew .remove a{font-size: 14px;}
+.w_scenicLt.width .w_scenicLtCon .scenic{float: right;border: none;margin: 0;width: 440px;height: 176px; overflow: hidden;}
+.w_scenicLt.width .w_scenicLtCon .img{width: 312px;height: 176px;overflow: hidden;}
+.w_scenicLt.width .w_scenicLtCon .img img{width: 100%;height: 100%;}
+.w_scenicLtCon .g_chl_zhe{position: inherit;padding: 0;height: auto;width: 440px;}
+.w_scenicLtCon .g_chl_zhe p{margin-top: 0;line-height: 24px;font-size: 14px;color: #666;}
+.w_scenicLtCon .g_zhe_lk{position: relative;margin: 0;padding: 0;font-size: inherit;line-height: none;}
+.w_scenicLtCon .g_zhe_lk a{position: absolute;right: 0;top: -42px;width: 110px;height: 30px;line-height: 30px;font-size: 14px; border-radius: 3px;background-color: #ff7e00;}
+.w_scenicLtCon .g_chl_zhe dd var{margin-right: 10px;}
+.w_scenicLtCon .g_chl_zhe dd{margin-bottom: 10px;}
+
+/*20150421 商品分类改版 start*/
+.w_listPageHotLt .ltCon h2.g_ic8 span{background-position: 0 -104px;}
+.g_ltCon .g_ltconpos{margin-top:10px;clear:both;height:28px;position:relative;z-index:19px;}
+.g_ltCon .g_ltconpos a{line-height:28px;display:inline;color:#666666;font-size:14px;margin-right:13px;}
+.g_lt{float:left;}
+.g_ltconpos a:hover{color:#ff8800;text-decoration:underline;}
+.g_ltconpos a.g_ltcona{float:right;}
+.g_ltconpos a.g_ltcona i{float:right;display:block;width:14px;height:16px;background:url(../images/listPage/g_ltcons.png) no-repeat 0 0;margin-top:6px;}
+.g_ltconpos a.g_ltcona i.g_ltconhov{background-position:0 -16px;}
+.g_ltconbox{display:none;position:absolute;z-index:99999;top:20px;left:2px;background:#fff;}
+.g_ltconbox var{display:block;width:6px;height:6px;background:url(../images/listPage/g_ltconsjiao.png) no-repeat 0 0;float:right;margin-right:6px;*margin-right:18px;}
+.g_ltconbox .g_pht{padding:7px 12px;border:1px solid #e6e6e6;width:300px;margin-top:5px;*margin-top:-1px;}
+.g_ltconbox .g_pht a{clear:both;display:inline;line-height:24px;margin-right:12px;font-size:14px;color:#999999;}
+/*20150421 商品分类改版 end*/
+
+/*学习频道列表 优*/
+.w_listPageGoodsLt .w_range2.f14{border-top: none;}
+.w_listPageGoodsLt .w_range2.f14 a{font-size: 14px;color: #666;margin-right: 30px;}
+/*学习频道列表 优*/
+
+/*优 商户列表 start*/
+.w_selectAreaBox{float: left;margin-top: 3px; padding-left: 25px;font-family: "microsoft yahei";}
+.w_selectAreaBox span{float: left; line-height: 25px;color: #999; font-size: 14px;}
+.w_selectAreaBox .nav{padding-left: 10px;margin-right: 10px; float: left;width: 100px;height: 25px;line-height: 25px; position: relative; background: url(../images/selectBtn.jpg) no-repeat right center;border: 1px solid #d2d2d2;cursor:pointer;}
+.w_selectAreaBox .nav p{width: 100%;float: none;position: absolute;z-index: 9999;}
+.w_selectAreaBox .new{height: 200px;overflow-y: auto; position: absolute;width:100%;left: -1px; top: 26px;background-color: #fff;border: 1px solid #d2d2d2;border-top: none;}
+.w_selectAreaBox .new li{padding-left: 10px; line-height: 25px;color: #999;}
+.w_selectAreaBox .new li:hover{color: #666;}
+.w_selectAreaBox .btn{float: left; display: block;width: 58px;height: 27px;color: #fff;background-color: #ff9a00;text-align: center;line-height: 27px;border-radius: 5px;}
+.w_selectAreaBox .btn:hover{background-color: #ff7e00;}
+/*优 商户列表 end*/
+
+/*优 同城兑换 start*/
+.w_banWp.new1 .w_selectAreaBox{margin-top: 22px; padding-left: 0;float: none; }
+.w_banWp.new1 .nav{width: 86px;margin-right:8px;font-size: 12px;color: #666;}
+.w_banWp.new1 .w_selectAreaBox .btn{width: 32px;}
+/*优 同城兑换 end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

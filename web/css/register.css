@@ -1,0 +1,78 @@
+.loginInner{width:1200px;margin:0 auto;}
+.zLoginBox{min-width:1200px;background:url("../images/register/login_bg.jpg") center top no-repeat;}
+.zLoginBox .s_footer{height:223px;background:none;margin-top:0;}
+.zLoginBox .s_footer p,.zLoginBox .s_footer p a{color:#fff;}
+.zLoginBox .s_footer p a:hover{color:#1d7ad9;}
+.zLoginBox .loginTop{min-width:1200px;height:77px;background:url("../images/register/login_top_bg.png") center bottom repeat-x;padding-top:32px;}
+.zLoginBox .loginTop a.logo{float:left;width:175px;height:49px;background:url("../images/register/login_logo.png") no-repeat;}
+.zLoginBox .loginTop h3{float:left;line-height:28px;font-family:"microsoft yahei";font-size:16px;color:#fff;padding:21px 0 0 10px;}
+.zLoginBox .loginMain{height:699px;padding-top:42px;}
+.zLoginBox .loginMain .mainLeft{float:left;width:635px;height:431px;background:url("../images/register/login_left_bg.png") left 130px no-repeat;}
+.zLoginBox .loginMain .mainRight{float:left;width:484px;height:477px;background:url("../images/register/login_loginArea_bg.png") no-repeat;padding:108px 3px 0;}
+.zLoginBox .loginMain .mainRight h3{height:50px;line-height:50px;font-family:"microsoft yahei";font-size:22px;color:#333;border-bottom:1px solid #eeeef1;padding-left:48px;}
+.zLoginBox .loginMain .mainRight h3 a{font-weight: bold;color: #333;}
+.zLoginBox .loginMain .mainRight h3 a:hover{color: #1d7ad9;}
+.zLoginBox .loginMain .mainRight h4{height:42px;line-height:42px;font-family:"microsoft yahei";font-size:14px;color:#666;padding-left:48px;}
+.zLoginBox .loginMain .mainRight h4 a{color:#666;}
+.zLoginBox .loginMain .mainRight h4 a.cur,.zLoginBox .loginMain .mainRight h4 a:hover{color:#1d7ad9;}
+.zLoginBox .loginMain .mainRight ul.inputArea{padding-left:48px;}
+.zLoginBox .loginMain .mainRight ul.inputArea li{width:397px;}
+.zLoginBox .loginMain .mainRight ul.inputArea li.one{height:38px;}
+.zLoginBox .loginMain .mainRight ul.inputArea li.two{height:38px;margin-top:14px;}
+.zLoginBox .loginMain .mainRight ul.inputArea li input.inputTxt{display:block;width:375px;height:36px;line-height:36px;font-family:"microsoft yahei";font-size:14px;/*color:#ccc;*/color: #666; background:#fff;border:1px solid #dfdfdf;padding:0 10px;}
+.zLoginBox .loginMain .mainRight ul.inputArea li.three{height:42px;line-height:42px;font-family:"microsoft yahei";font-size:14px;color:#666;}
+.zLoginBox .loginMain .mainRight ul.inputArea li.three label{float:left;}
+.zLoginBox .loginMain .mainRight ul.inputArea li.three label input{float:left;margin:15px 5px 0 0;}
+.zLoginBox .loginMain .mainRight ul.inputArea li.three label span{float:left;}
+.zLoginBox .loginMain .mainRight ul.inputArea li.three a.forget{float:right;color:#666;}
+.zLoginBox .loginMain .mainRight ul.inputArea li.three a.forget:hover{color:#1d7ad9;}
+.zLoginBox .loginMain .mainRight ul.inputArea li.four{height:40px;}
+.zLoginBox .loginMain .mainRight ul.inputArea li.four a.loginBtn{display:block;width:389px;height:40px;line-height:40px;text-align:center;font-family:"microsoft yahei";font-size:18px;color:#fff;background:#1d7ad9;border-radius:4px;}
+.zLoginBox .loginMain .mainRight ul.inputArea li.five{height:42px;}
+.zLoginBox .loginMain .mainRight ul.inputArea li.five p{height:42px;line-height:42px;font-family:"microsoft yahei";font-size:14px;color:#666;}
+.zLoginBox .loginMain .mainRight ul.inputArea li.five p.left{float:left;}
+.zLoginBox .loginMain .mainRight ul.inputArea li.five p.left a.regBtn{color:#1d7ad9;}
+.zLoginBox .loginMain .mainRight ul.inputArea li.five p.left a.regBtn:hover{text-decoration:underline;}
+.zLoginBox .loginMain .mainRight ul.inputArea li.five p.right{float:right;}
+.zLoginBox .loginMain .mainRight ul.inputArea li.five p.right span{float:left;}
+.zLoginBox .loginMain .mainRight ul.inputArea li.five p.right a{float:left;margin:14px 0 0 10px;}
+.zLoginBox .loginMain .mainRight ul.inputArea li.five p.right a.weiboLog{width:16px;height:14px;background:url("../images/register/weibo_logo.png") no-repeat;}
+.zLoginBox .loginMain .mainRight ul.inputArea li.five p.right a.qqLog{width:12px;height:13px;background:url("../images/register/qq_logo.png") no-repeat;margin-top:16px;}
+
+/*.zRegBox{min-width:1200px;background:#fafafa;}*/
+
+.s_footer{margin-top:0;}
+.zRegTop{height:73px;padding-top:23px;}
+.zRegTop a.logo{float:left;width:153px;height:40px;background:url("../images/register/reg_logo.png") no-repeat;}
+.zRegTop h3{float:left;line-height:40px;font-family:"microsoft yahei";font-size:18px;color:#666;padding-left:13px;}
+.zRegMain{margin-bottom:80px;}
+.zRegMain .zRegNav{height:35px;border-bottom:1px solid #ddd;}
+.zRegMain .zRegNav p.list{float:left;width:1053px;}
+.zRegMain .zRegNav p.list a{float:left;width:110px;height:34px;line-height:34px;text-align:center;font-family:"microsoft yahei";font-size:14px;color:#333;background:#fff;border-top:1px solid #ddd;border-left:1px solid #ddd;border-right:1px solid #ddd;margin-right:10px;}
+.zRegMain .zRegNav p.list a.cur,.zRegMain .zRegNav p.list a:hover{height:33px;line-height:30px;color:#f70;border-top:3px solid #ff9801;}
+.zRegMain .zRegNav p.login{float:left;width:147px;line-height:34px;font-family:"microsoft yahei";font-size:14px;color:#333;}
+.zRegMain .zRegNav p.login a{color:#08c;}
+.zRegMain .zRegNav p.login a:hover{text-decoration:underline;}
+.zRegMain .zRegMainCont{background:#fff;border-left:1px solid #ddd;border-right:1px solid #ddd;border-bottom:1px solid #ddd;padding:26px 0 60px 0;}
+.zRegMainContEle ul li{margin-top:24px;}
+.zRegMainContEle ul li .left{float:left;width:383px;height:36px;line-height:36px;text-align:right;font-family:"microsoft yahei";font-size:14px;color:#666;padding-right:22px;}
+.zRegMainContEle ul li .right{float:left;width:793px;}
+.zRegMainContEle ul li .right input.textBox{float:left;width:344px;height:34px;line-height:34px;font-family:"microsoft yahei";font-size:12px;/*color:#ccc;*/color: #999; border:1px solid #dcdcdc;padding:0 15px;}
+.zRegMainContEle ul li .right span.warn{float:left;height:36px;line-height:36px;font-family:"microsoft yahei";font-size:12px;padding-left:20px;margin-left:10px;}
+.zRegMainContEle ul li .right span.blue{color:#999;background:url("../images/register/warn_blue.png") 0 10px no-repeat;}
+.zRegMainContEle ul li .right span.green{background:url("../images/register/warn_green.png") 0 10px no-repeat;}
+.zRegMainContEle ul li .right span.red{color:#f30;background:url("../images/register/warn_red.png") 0 10px no-repeat;}
+.zRegMainContEle ul li .right a.getCode{float:left;width:76px;height:32px;line-height:32px;text-align:center;font-family:"microsoft yahei";font-size:12px;color:#000;background:#fff;border:1px solid #ccc;padding:1px;margin-left:10px;}
+.zRegMainContEle ul li .right a.getCode span{display:block;height:32px;background:#efefef;}
+.zRegMainContEle ul li .right span.count{float:left;line-height:36px;font-family:"microsoft yahei";font-size:12px;color:#999;margin-left:10px;}
+.zRegMainContEle ul li .right span.count i{font-style:normal;color:#f30;}
+.zRegMainContEle ul li .right p.passwordStrength{display:block;width:182px;margin-top:46px;}
+.zRegMainContEle ul li .right p.passwordStrength span{display:block;width:182px;height:14px;background:url("../images/register/passwordStrength.png") no-repeat;}
+.zRegMainContEle ul li .right p.passwordStrength span.level_2{background-position:0 -14px;}
+.zRegMainContEle ul li .right p.passwordStrength span.level_3{background-position:0 -28px;}
+.zRegMainContEle ul li .right input.checkBox{float:left;width:13px;height:13px;margin:3px 6px 0 0;padding:0;}
+.zRegMainContEle ul li .right .userAgreement p{float:left;line-height:18px;font-family:"microsoft yahei";font-size:12px;color:#999;}
+.zRegMainContEle ul li .right .userAgreement p a{color:#498bff;}
+.zRegMainContEle ul li .right .userAgreement p a:hover{text-decoration:underline;}
+.zRegMainContEle ul li .right a.submitBtn{float:left;width:107px;height:35px;line-height:34px;text-align:center;font-family:"microsoft yahei";font-size:16px;color:#fff;background:url("../images/register/reg_submit_btn.png") no-repeat;margin-right:26px;}
+.zRegMainContEle ul li .right a.submitBtn.resetBtn{background-position:0 -35px;}

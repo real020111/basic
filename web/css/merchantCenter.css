@@ -1,0 +1,98 @@
+.merchantTop{height:216px;font-family:"microsoft yahei";background:url("../images/merchantCenter/merchantCenter_bg.jpg") no-repeat;}
+.merchant_boy{width: 1200px;margin: 0 auto;height:216px;border-bottom:1px solid #e0e0e0;}
+.merchant_cash p{width:131px;height:131px;padding-top: 62px;float:left;}
+.merchant_cash ul{float:left;margin-left:26px;margin-top:80px;}
+.merchant_cash ul li{font-size:20px;}
+.g_cash_1{margin-top:54px;}
+.g_cash_1 span{font-size:14px;color:#333333;display:inline-block;line-height:35px;float:left;}
+.g_cash_1 span b{font-size:24px;color:#ff8c00;}
+.g_cash_1 a{font-size:12px;color:#ffffff;display:inline-block;width:90px;height:30px;background:#ff8c00;text-align:center;line-height:30px;border-radius:4px;float:left;margin-left:30px;}
+.g_cash_1 a:hover{background:#ff7e00;}
+.merchantCenter{width:1200px;margin:20px auto;font-family:"microsoft yahei";}
+.personalNav ul li a span.icon14{width:16px;height:15px;background:url("../images/merchantCenter/merchantNav_icon_01.png") no-repeat;margin:17px 12px 0 31px;}
+.personalNav ul li a:hover span.icon14{background-position:0 bottom;}
+.personalNav ul .g_iconed{background:#2e82ff;}
+.personalNav ul .g_iconed span.icon{background-position:0 bottom;}
+.personalNav ul .g_iconed span.text{color:#fefcfc;}
+.personalNav ul li a span.icon15{width:16px;height:11px;background:url("../images/merchantCenter/merchantNav_icon_02.png") no-repeat;margin:20px 12px 0 31px;}
+.personalNav ul li a:hover span.icon15{background-position:0 bottom;}
+.personalNav ul li a span.icon16{width:12px;height:16px;background:url("../images/merchantCenter/merchantNav_icon_08.png") no-repeat;margin:16px 12px 0 34px;}
+.personalNav ul li a:hover span.icon16{background-position:0 bottom;}
+.personalNav ul li a span.icon17{width:16px;height:16px;background:url("../images/merchantCenter/merchantNav_icon_09.png") no-repeat;margin:16px 12px 0 31px;}
+.personalNav ul li a:hover span.icon17{background-position:0 bottom;}
+.personalNav ul li a span.icon18{width:14px;height:14px;background:url("../images/merchantCenter/merchantNav_icon_10.png") no-repeat;margin:18px 12px 0 33px;}
+.personalNav ul li a:hover span.icon18{background-position:0 bottom;}
+.merchantCont{float:right;width:940px;font-family:"microsoft yahei";font-style: normal;color: #666;}
+.personalContBox_nav1{padding-left:34px;}
+.merchantContminBox_1{margin-top: 44px;margin-left: 55px;}
+.g_cash_bt,.g_cash_bt2{width:90px;height:30px;border-radius:4px;background:#ff8c00;color:#ffffff;text-align:center;line-height:30px;display:inline-block;font-size:12px;}
+.g_cash_bt{margin-top:20px;}
+.g_cash_bt2{margin-top:15px;}
+.merchantCont h3 {height:42px;font-size:16px;color:#333;font-family:"microsoft yahei";}
+.merchantCont h3 span{float:left;}
+.g_tr_m1{height:42px;background:#f0eeee;}
+.g_tr_m1 th{text-align:center;border:0;}
+.g_in_m1{background: #2e82ff;color: #ffffff;width:70px;height:26px;line-height: 26px;text-align: center;font-size:14px;}
+.g_in_m2,.g_slt_1{width:178px;height:24px;border:1px solid #dcdcdc;padding-left:8px;color:rgb(153, 153, 153);size:14;line-height: 24px;font-size:12px;}
+.g_in_m1,.g_in_m2,.g_slt_1{float:right;font-family:"microsoft yahei";}
+.g_tr_m2{height:43px;}
+.g_slt_1{margin-right:25px;height:26px;}
+.g_tr_m2 span{padding-left:20px;}
+.g_tr_m3{height:49px;text-align:center;}
+.g_hov{background:#effbff;}
+.merchantDate,.merchantDate_2{font-size:12px;font-family: "microsoft yahei";float:left;}
+.merchantDate{padding-left:16px;}
+.g_fam_ya{font-family: "microsoft yahei";}
+.merchantDate li,.merchantDate_2 li{margin-bottom:28px;*margin-bottom:24px;}
+.mdate_left{float:left;width:82px;height:28px;line-height:28px;/*text-align: right;*/color: #333333;}
+.mdate_right{float:left;width:800px;position:relative;}
+.mdate_textBox_1,.mdate_textBox_2,.g_select_3,.mdate_textBox_3{float:left;height:26px;line-height:26px;border:1px solid #dddddd;padding:0 10px;}
+.mdate_textBox_1{width:188px;}
+.mdate_textBox_2{width:616px;}
+.mdate_textBox_3{width:110px;}
+.g_select_3{width:210px;}
+.g_select_1,.g_select_2{border:1px solid #dddddd;height:26px;margin-right:13px;}
+.g_select_1{width:140px;}
+.g_select_2{width:80px;}
+.g_select_1,.g_select_2,.g_select_3{font-family: "microsoft yahei";}
+.mdate_right textarea{height:86px;width:636px;border:1px solid #dddddd;resize:none;}
+.g_textp{display:inline-block;height:14px;position:absolute;bottom:7px;right:170px;color:#999999;}
+.g_foc{display:none;}
+.mdate_word_1{height:27px;color:#999999;}
+.mdate_pic_1,.mdate_word_2{display:inline-block;height:36px;line-height:36px;color:#999999;}
+.mdate_pic_1{width:128px;text-align:center;font-size:14px;border:1px solid #dedede;background:#f8f8f8;border-radius:4px;}
+.mdate_word_2{margin-left:12px;}
+.mdate_pic_2{display:block;height:50px;}
+.mdate_word_3,.mdate_word_4{display:inline-block;height:12px;color:#999999;}
+.mdate_word_3{margin-top:10px;}
+.mdate_word_4{margin-bottom:15px}
+.g_button_date,.g_button_date2{display:block;height:30px;width:90px;background:#ff8c00;color:#ffffff;text-align:center;line-height:30px;font-size:12px;border-radius:4px;margin-top:12px;float:left;}
+.g_button_date:hover,.g_button_date2:hover{background:#ff7e00;}
+.g_button_date{margin-left:98px;}
+.g_button_date2{margin-left:82px;}
+.g_top2{margin-top: 66px;}
+.g_ordertr_1{height:41px;}
+.personalContBox .g_ordertr_1 td{border-left:none;border-right:none;}
+.g_ordertr_2{height:53px;text-align: center;}
+.g_ordertr_3{height:46px;text-align: center;}
+.g_ordertr_1 span{padding-left:17px;} 
+.g_ordertr_2 a{color:#656464;}
+.g_ordertr_2 .g_shelf_clr{color:#191919;}
+.g_ordertr_2 td{line-height:24px;}
+.g_top3{margin-top:34px;}
+.g_left_m1{margin-left:40px;}
+.mdate_span_1{display:inline-block;width:28px;line-height:28px;text-align:center;float:left;}
+.g_mpsd{border: 1px solid #dcdcdc;width:248px;height:36px;margin-bottom:9px;size:14;line-height:36px;padding:0 10px;}
+.merchant_Download{font-size:12px;color:#4d4c4c;border:2px solid #dcdcdc;}
+.g_mload_tr1{height:50px;*height:49px;color:#333333;background:#f0eeee;}
+.g_mload_tr1 th{text-align:center;}
+.g_mload_tr2{height:46px;text-align:center;*height:45px;}
+.g_clr_1 a{color:#d76603;}
+.g_clr_1 a:hover{text-decoration:underline;}
+.g_mertable td{vertical-align:middle;}
+.merchantCont .g_mermintable{border:none;border-collapse: collapse;}
+.merchantCont .g_mermintable .g_borr{border:none;border-right:1px solid #dcd8d8;}
+.merchantCont .g_mermintable .g_borb{border:none;}
+.merchantCont .g_mermintable .g_botbor{border-bottom:1px solid #dcd8d8;}
+
+
